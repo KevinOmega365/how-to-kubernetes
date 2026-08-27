@@ -4,6 +4,8 @@
 
 ### WSL
 
+**todo: add adding a distro**
+
 1. Install WSL via Terminal
     1. Right-click the Windows Start Menu and select Terminal (Admin) or PowerShell (Admin).
     1. Type the following command and press Enter: ```wsl --install``` Note: This command automatically enables the required virtualization features, downloads the latest Linux kernel, and installs Ubuntu as the default Linux distribution.Step
