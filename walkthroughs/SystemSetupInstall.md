@@ -1,20 +1,29 @@
-# Setup
+# Install
 
-## Install
+## Install WSL and Ubuntu
 
 ### WSL
 
-**todo: add adding a distro**
-
-1. Install WSL via Terminal
-    1. Right-click the Windows Start Menu and select Terminal (Admin) or PowerShell (Admin).
-    1. Type the following command and press Enter: ```wsl --install``` Note: This command automatically enables the required virtualization features, downloads the latest Linux kernel, and installs Ubuntu as the default Linux distribution.Step
-1. Restart Your Computer
-    1. Wait for the terminal to show that the installation is complete.
-    1. Restart your machine to finalize the feature activation.
-1. Configure Your Linux User AccountAfter rebooting, a Linux terminal window (Ubuntu) will open automatically.
-    1. Enter a new UNIX username when prompted (this does not need to match your Windows username).
+1. Install WSL ```wsl --install```
+    1. Click Yes to install WSL
+    1. Reboot
+1. Install Ubuntu: ```wsl --install -d Ubuntu```
+    1. Enter a new Linux username when prompted (this does not need to match your Windows username).
     1. Type a secure password and confirm it. (Note: The cursor will not move or show characters while typing the password; this is standard security behavior for Linux).
+
+#### Copy paste
+
+``` PowerShell
+wsl --install -d Ubuntu
+```
+
+``` PowerShell
+wsl --install -d Ubuntu
+```
+
+#### Further reading
+
+[Microsoft Learn on how to install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 
 ### kubectl
 
