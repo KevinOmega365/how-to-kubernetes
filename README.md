@@ -2,9 +2,16 @@
 
 Cookbooks and walkthroughs for learning Kubernetes locally on Windows
 
+## Local setup
+
+1. Go through the local setup tests and make notes on what is missing.
+1. Go through the local install tests for anything that is missing.
+1. Run the quick test to confirm
+
 ## Walkthroughs
 
-* [SystemSetup](./walkthroughs/SystemSetup.md)
+* [SystemSetupTest](./walkthroughs/SystemSetupTest.md)
+* [SystemSetupInstall](./walkthroughs/SystemSetupInstall.md)
 * [HelloKubernetes](./walkthroughs/HelloKubernetes.md)
 
 ## Cookbook

@@ -1,4 +1,4 @@
-# Hello Kebernetes -- in Docker (kind)
+# Hello Kubernetes -- in Docker (kind)
 
 ## Start Docker
 
