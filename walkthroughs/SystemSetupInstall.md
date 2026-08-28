@@ -1,5 +1,7 @@
 # Install
 
+NB: After installing tools, open a new terminal before testing.
+
 ## Install WSL and Ubuntu
 
 ### WSL
