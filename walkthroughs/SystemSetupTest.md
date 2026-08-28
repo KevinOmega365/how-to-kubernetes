@@ -14,11 +14,7 @@ wsl --status
 docker --version
 ```
 
-**You should see something like:**
-
-```text
-Docker version 28.x.x, build ...
-```
+**You should see something like:** ```Docker version 28.x.x, build ...```
 
 ## 3. Check kubectl
 
@@ -34,11 +30,7 @@ kubectl version --client
 kind version
 ```
 
-**You should see something like:**
-
-```text
-kind v0.29.0 go1.24.x windows/amd64
-```
+**You should see something like:** ```kind v0.29.0 go1.24.x windows/amd64```
 
 ## 5. Check Helm
 
@@ -46,8 +38,4 @@ kind v0.29.0 go1.24.x windows/amd64
 helm version
 ```
 
-**You should see something like:**
-
-```text
-version.BuildInfo{Version:"v3.x.x", ...}
-```
+**You should see something like:** ```version.BuildInfo{Version:"v3.x.x", ...}```
