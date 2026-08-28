@@ -5,7 +5,7 @@
 ### WSL
 
 1. Install WSL ```wsl --install```
-    1. Click Yes to install WSL
+    1. The installer will request to run as administrator. Expect a prompt.
     1. Reboot
 1. Install Ubuntu: ```wsl --install -d Ubuntu```
     1. Enter a new Linux username when prompted (this does not need to match your Windows username).
@@ -14,7 +14,7 @@
 #### Copy paste
 
 ``` PowerShell
-wsl --install -d Ubuntu
+wsl --install
 ```
 
 ``` PowerShell
@@ -24,6 +24,8 @@ wsl --install -d Ubuntu
 #### Further reading
 
 [Microsoft Learn on how to install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+---
 
 ### kubectl
 
@@ -48,3 +50,5 @@ winget install -e --id Helm.Helm
 ``` PowerShell
 winget install -e --id Docker.DockerDesktop
 ```
+
+NB: The installer will request to run as administrator. Expect a prompt.
