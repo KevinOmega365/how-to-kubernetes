@@ -2,6 +2,8 @@
 
 NB: After installing tools, open a new terminal before testing.
 
+---
+
 ## 1. Check WSL
 
 ```powershell
