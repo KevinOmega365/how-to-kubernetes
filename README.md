@@ -4,9 +4,9 @@ Cookbooks and walkthroughs for learning Kubernetes locally on Windows and AKS
 
 ## Local setup
 
-1. Go through the local setup tests and make notes on what is missing.
-1. Go through the local install tests for anything that is missing.
-1. Run the quick test to confirm
+1. Not sure if the tools are installed go through [SystemSetupTest](./walkthroughs/SystemSetupTest.md) and make notes on what is missing.
+1. Go through [SystemSetupInstall](./walkthroughs/SystemSetupInstall.md) for anything that is missing.
+1. Run the quick test from [QuickToolCheck](./cookbook/QuickToolCheck.md) to confirm
 
 ## Walkthroughs
 

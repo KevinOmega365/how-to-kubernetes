@@ -35,11 +35,3 @@ kind version
 ```
 
 **You should see something like:** ```kind v0.29.0 go1.24.x windows/amd64```
-
-## 5. Check Helm
-
-```powershell
-helm version
-```
-
-**You should see something like:** ```version.BuildInfo{Version:"v3.x.x", ...}```

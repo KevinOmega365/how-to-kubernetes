@@ -2,6 +2,8 @@
 
 NB: After installing tools, open a new terminal before testing.
 
+---
+
 ## Install WSL and Ubuntu
 
 ### WSL
@@ -39,12 +41,6 @@ winget install -e --id Kubernetes.kubectl
 
 ``` PowerShell
 winget install -e --id Kubernetes.kind
-```
-
-### Helm
-
-``` PowerShell
-winget install -e --id Helm.Helm
 ```
 
 ### Docker Desktop
