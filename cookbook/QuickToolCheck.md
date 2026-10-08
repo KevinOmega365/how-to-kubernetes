@@ -8,14 +8,14 @@ Get-Command az, wsl, docker, kind, kubectl, helm -ErrorAction SilentlyContinue |
 
 NB: Check the output list; it won't tell you what is missing
 
-## Local
+## Local dev requirements
 
 * wsl
 * docker
 * kind
 * kubectl
 
-## Azure
+## Azure dev requirements
 
 * az
 * kubectl
